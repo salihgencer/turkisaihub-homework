@@ -1,7 +1,6 @@
 from func import loginControl, pointControl
 from lesson import Lesson
 
-print("Turkis AI Hub - Homework");
 lessons = []
 loginAttempt = 0
 username = ""
@@ -9,6 +8,11 @@ surname = ""
 
 miniBrace = "---------------------------------------"
 brace = "======================================"
+
+print("Turkis AI Hub - Homework");
+print("Example name: Salih, surname: Gencer")
+
+print(brace)
 
 while loginAttempt < 3:
     
@@ -62,4 +66,9 @@ for lesson in lessons:
     lesson.gradeCalculate()
     lesson.printResult()
     print(miniBrace)
-    
+
+print(brace)
+print(miniBrace)
+print("You gave a good education. Thank you. :)")
+print(miniBrace)
+print(brace)
